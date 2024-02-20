@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalização de Compra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cabecalho">
+            <h1 style="text-shadow: 2px 2px 8px purple; color: white;">StoreTech</h1>
+            <ul class="navega">
+                <li><a href="https://storetech-52ufof4.gamma.site/">Home</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    <div class="bodyy">  
+        <div class="container">
+            <div class="product-info">
+                <div class="product-images">
+                    <button class="navigation-button prev" onclick="changeImage(-1)">&#10094;</button>
+                    <button class="navigation-button next" onclick="changeImage(1)">&#10095;</button>
+                    <img class="product-image" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSsTaxdcaPgZJwevzsNxYR00Cwc6HDB5136hgNlq503Gec_bXTL-riqgu9KvPQGC1KwYR0DGXi-qShIQhvs4Iu1nWiJVgllLLHyR66S5vT_GSOYpMr_c1pl&usqp=CAE"
+                        alt="Imagem 1">
+                    <img class="product-image" src="https://ae01.alicdn.com/kf/S377c81f93d1b426ea70ade1766ae2e2a5/Ajazz-Mouse-sem-fio-Bluetooth-para-jogos-7-bot-es-ratos-com-fio-ergon-mico-para.jpg_.webp"
+                        alt="Imagem 2">
+                    <img class="product-image" src="https://ae01.alicdn.com/kf/S5f00c621970f4bfa8df580b18b6e22ae3/Ajazz-Mouse-sem-fio-Bluetooth-para-jogos-7-bot-es-ratos-com-fio-ergon-mico-para.jpg_.webp"
+                        alt="Imagem 3">
+                    <!-- Adicione quantas imagens quiser aqui -->
+                </div>
+                <div class="detailss">
+                    <p>Detalhes do Produto:</p>
+                    <ul>
+                        <li>Conexão via Tipo C com fio</li>
+                        <li>2.4GHz sem fio e Bluetooth 5.0</li>
+                        <li>7 botões</li>
+                        <li>1 botão de energia e 1 chave de emparelhamento</li>
+                        <li>DPI ajustável de 800 a 26000 (seis níveis de velocidade)</li>
+                        <li>Sensor PAW3395</li>
+                        <li>Bateria com capacidade de 500mAh</li>
+                        <li>Peso aproximado do produto: 60g</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="qr-code">
+                <div class="box-valor">
+                    <img class="qr-image" src="qr250.png" alt="QR Code do Produto">
+                    <div class="box-nome-valor">
+                        <p class="nome">Ajazz Aj219 Branco Sem fio<br>dock de carregamento</p>
+                        <p class="valor"><b>R$250,00</b></p>
+                    </div>
+                </div>
+                <div class="code-section">
+                    <p>Código Copia e Cola:</p>
+                    <div class="code">00020101021126360014br.gov.bcb.pix0114+55149992572695204000<br>053039865406250.005802BR5920GUILHERME C DA SILVA6005AVARE62070503***63041F6F</div>
+                    <button onclick="copyCode()">Copiar Código</button>
+                </div>
+                <button class="btn-submit" onclick="sendWhatsAppMessage()">Enviar Comprovante de Pagamento</button>
+                <div class="box-aviso">
+                    <p><strong style="font-size: 50px;">AVISO</strong></p>
+                    <h3 style="padding: 10px;">Após o envio do comprovante de pagamento envie para nós seu endereço para que podemos enviar seu produto o mais rápido possível</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
